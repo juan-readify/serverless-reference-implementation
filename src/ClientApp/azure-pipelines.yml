@@ -79,7 +79,7 @@ stages:
               gitHubConnection: $(gitHubServiceConnectionName)
               tagSource: manual
               action: edit
-              tag: $(releaseVersion)
+              tag: 'tag-1'
               title: 'Fabrikam Drone Status App $(releaseVersion)'
           
           - script: |
